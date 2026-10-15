@@ -1,0 +1,29 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Text File Browser",
+	"Description": "Show text-like files (txt / cs / cpp / h / lua / json ...) in the Content Browser and edit them with a built-in lightweight text editor (syntax highlighting, completion, auto indent).",
+	"Category": "Editor",
+	"CreatedBy": "Kane",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TextFileBrowser",
+			"Type": "Editor",
+			"LoadingPhase": "PostEngineInit"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ContentBrowserFileDataSource",
+			"Enabled": true
+		}
+	]
+}
